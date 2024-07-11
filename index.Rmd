@@ -1,41 +1,64 @@
 ---
-title: "Welcome Hooman"
+title: "Welcome!"
 output:
   html_document:
     toc: no
 ---
 
-
+```{=html}
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+</style>
+```
 ```{r, echo=F, warning=F, message=F}
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(knitr)
 ```
 
+### 
 
-###
-
-```{r, echo=FALSE, fig.cap="Hi! I am Estrella.", out.width = '30%', fig.align='center'}
-knitr::include_graphics("my_smiling_face_here.jpg")
+```{r, echo=FALSE, fig.cap="Hi! I am Aman.", out.width = '30%', fig.align='center'}
+knitr::include_graphics("egypt_photo.jpg")
 ```
-   
-<h6 style="text-align: center;" markdown="1">
 
-Email: da_boss_estrella [at] hotmail [dot] com
+<h6 style="text-align: center;">
 
-</h6>     
+</h6>
 
-I am a budding biolgist always curious about human behavior, especially the temporal patterns in which hoomans do and do not provide food. You can find out more about my day to day activities from some of my hooman friends, such as [Biplabendu Das](https://biplabendu.github.io/homepage/).
+I am an undergraduate Biomedical engineering student at the Joint BME program within NC State University and UNC Chapel Hill. My research projects include a wide range of scientific areas such as Python package building, chronobiology, chromatin mining, machine learning, and stem cell biology.
 
+------------------------------------------------------------------------
 
-----------------------------------
+<a href="https://www.linkedin.com/in/amanprasanna/" target="_blank" rel="noopener noreferrer" class="linkedin-link"> <img src="data:image/png;base64,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" alt="LinkedIn" style="width: 50px; height: auto;"/> </a>
 
-## Publications, Tutorials, Talks
+```{=html}
+<style>
+.linkedin-link img {
+    transition: filter 0.3s ease;
+}
 
-<!-- <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> -->
+.linkedin-link img:hover {
+    filter: brightness(150%);
+}
+</style>
+```
+<a href="mailto:amanprasanna1@gmail.com" class="email-link"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcs0btzQfQlKVTFnEjHGwhbKUfiZL88gXYBA&amp;s" alt="Email" style="width: 50px; height: auto;"/> </a>
 
-##
+```{=html}
+<style>
+.email-link img {
+    transition: filter 0.3s ease;
+}
 
-2. _**Das, B.**, Brouns, R., Will, I., Brachmann, A., de Bekker, C. (2023)_ Using RNASeq to investigate the involvement of the _Ophiocordyceps_ clock in ant host infection and behavioral manipulation. _bioRxiv_ [*PDF*](https://www.biorxiv.org/content/10.1101/2023.01.20.524843v2.abstract)
-<!-- <div class='altmetric-embed' data-badge-popover="right" data-badge-type='medium-bar' data-doi="10.1101/2023.01.20.524843"></div> -->
-
-1. _**Das, B.**, Brachmann, A., de Bekker, C. (2023)_ Both behavior-manipulating and non-manipulating entomopathogenic fungi affect rhythmic gene expression in carpenter ant foragers upon infection. _bioRxiv_ [*PDF*](https://www.biorxiv.org/content/10.1101/2023.01.19.524837v2.abstract)
+.email-link img:hover {
+    filter: brightness(120%) hue-rotate(180deg);
+    cursor: pointer;
+}
+</style>
+```

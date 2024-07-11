@@ -11,29 +11,34 @@ output:
     toc_depth: 3
     toc_float: yes
 navbar:
-  title: Estrella da Boss
+  title: Aman Prasanna
   left:
   - text: Home
     href: index.html
     icon: fa-home
-  - text: Research
-    href: research.html
-    icon: fa-flask
-  - text: Website Tutorial
-    href: website_tutorial.html
+  - text: CV
+    href: "./resume/GithubCV.pdf"
+    icon: fa-solid fa-file
+ # - text: Website Tutorial
+ #   href: website_tutorial.html
   # - text: Resume
   #   href: "./resume/resume_john_doe.pdf"
   #   icon: fa-id-card
-  right:
-  - icon: fa-twitter
-    href: https://twitter.com/another_ant_guy
-    align: right
+ # right:
+ # - icon: fa-twitter
+#    href: https://twitter.com/another_ant_guy
+ #   align: right
   - { 
       icon: "fa-linkedin", 
-      href: "https://www.linkedin.com/in/biplabendu/", 
+      href: "https://www.linkedin.com/in/amanprasanna/", 
       align: right
     }
-
+  - {
+    icon: "fa-envelope"
+   # text: Email
+   # href: "#email-link"
+   # align: right
+    }
 
 # Resources:
 ## icons 
